@@ -1,6 +1,6 @@
-# 📈 Stock Market Analysis & Forecasting System (US & Vietnam)
+# Stock Market Analysis & Forecasting System (US & Vietnam)
 
-## 📌 Overview
+##  Overview
 
 This project focuses on **building an end-to-end system for stock market analysis and forecasting** for both **US** and **Vietnamese** equity markets.
 The system emphasizes **data engineering, financial feature extraction, performance evaluation, and decision-oriented visualization**, rather than treating forecasting as a purely black-box task.
@@ -9,7 +9,7 @@ The project is designed with an **applied finance & data science perspective**, 
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 * Build a **robust ETL pipeline** for stock price data
 * Engineer **financially meaningful features** (returns & volatility)
@@ -20,7 +20,7 @@ The project is designed with an **applied finance & data science perspective**, 
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 Data Sources
@@ -38,7 +38,7 @@ Power BI Dashboard
 
 ---
 
-## 📊 Data Sources
+##  Data Sources
 
 * **US Market**: Yahoo Finance / Alpha Vantage
 * **Vietnam Market**: Daily stock price data
@@ -55,7 +55,7 @@ Each dataset includes:
 
 ---
 
-## 🔧 Feature Engineering
+##  Feature Engineering
 
 The following features are constructed to capture both **return dynamics** and **market risk**:
 
@@ -71,7 +71,7 @@ These features provide a balance between **stationarity**, **interpretability**,
 
 ---
 
-## 📉 Kalman Filter Usage
+## Kalman Filter Usage
 
 The Kalman Filter is applied using a **Local Linear Trend model** to:
 
@@ -79,12 +79,12 @@ The Kalman Filter is applied using a **Local Linear Trend model** to:
 * Estimate latent states (trend and slope)
 * Improve signal stability for downstream analysis
 
-> ⚠️ Note: The Kalman Filter is **not used as the final forecasting model**.
+>  Note: The Kalman Filter is **not used as the final forecasting model**.
 > Instead, it serves as a **smoothing and analytical tool**, as linear-Gaussian assumptions may limit forecasting performance in highly volatile markets.
 
 ---
 
-## 📐 Model Evaluation
+##  Model Evaluation
 
 Forecasting performance is evaluated using standard regression metrics:
 
@@ -100,7 +100,7 @@ Evaluation is conducted across:
 
 ---
 
-## 📊 Power BI Dashboard
+##  Power BI Dashboard
 
 The Power BI dashboard provides:
 
@@ -113,7 +113,7 @@ The dashboard is designed for **decision support**, enabling intuitive interpret
 
 ---
 
-## 🧠 Key Insights
+##  Key Insights
 
 * US market exhibits **lower but more persistent volatility**
 * Vietnam market shows **higher short-term volatility spikes**
@@ -122,7 +122,7 @@ The dashboard is designed for **decision support**, enabling intuitive interpret
 
 ---
 
-## 🚀 Technologies Used
+##  Technologies Used
 
 * **Python** (pandas, numpy, matplotlib)
 * **Kalman Filter** (state-space modeling)
@@ -131,7 +131,7 @@ The dashboard is designed for **decision support**, enabling intuitive interpret
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ├── data/                # Raw and processed datasets
@@ -146,7 +146,7 @@ The dashboard is designed for **decision support**, enabling intuitive interpret
 
 ---
 
-## 📌 Future Work
+##  Future Work
 
 * Incorporate nonlinear models (LSTM, tree-based models)
 * Extend to multi-asset portfolio analysis
@@ -155,7 +155,7 @@ The dashboard is designed for **decision support**, enabling intuitive interpret
 
 ---
 
-## 👤 Author
+##  Author
 
 **Đăng**
 Applied Data Science & Financial Analytics
